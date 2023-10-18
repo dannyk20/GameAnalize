@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>게임 정보 결과</title>
+</head>
+<body>
+    <h1>게임 정보 결과</h1>
+
+    {% if game_info %}
+    <p>게임명: {{ game_info.name }}</p>
+    <p>제작자: {{ game_info.developer }}</p>
+    <p>제작사: {{ game_info.publisher }}</p>
+    {% else %}
+    <p>게임 정보를 찾을 수 없습니다.</p>
+    {% endif %}
+</body>
+</html>
