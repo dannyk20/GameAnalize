@@ -15,7 +15,7 @@ def index():
 
     return render_template("index.html")
 
-def test():
+def test_b():
     return None
 
 def get_game_info(game_name):
