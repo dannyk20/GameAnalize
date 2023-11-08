@@ -15,6 +15,8 @@ def index():
 
     return render_template("index.html")
 
+def test():
+    return None
 
 def get_game_info(game_name):
     # 게임명을 검색어로 위키피디아 페이지에 요청을 보냅니다.
